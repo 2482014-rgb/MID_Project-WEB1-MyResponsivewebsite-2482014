@@ -1,0 +1,113 @@
+/* ==========================
+   General Body Styling
+========================= */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+nav {
+    background-color: #333;
+    padding: 15px;
+    text-align: center;
+ /* border tegas di bawah nav */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: tomato;
+}
+
+/* ==========================
+   Header Styling
+========================= */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+/* ==========================
+   Section Styling
+========================= */
+section {
+    padding: 20px;
+    max-width: 800px;
+    min-height: 400px; /* tinggi minimum supaya konsisten */
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Heading Styling */
+h2, h3, h4, h5, h6 {
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Paragraph Styling */
+p {
+    margin-bottom: 15px;
+    text-align: justify; /* default untuk semua p */
+}
+
+/* Paragraph Alignment by Class */
+.left {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+/* ==========================
+   Image Styling
+========================= */
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 200px; /* ukuran sedang */
+}
+
+/* ==========================
+   List Styling
+========================= */
+ul {
+    list-style-type: disc; /* bullet point */
+    padding-left: 40px;
+    margin-bottom: 20px;
+}
+
+ol {
+    padding-left: 40px;
+    margin-bottom: 20px;
+}
+
+/* ==========================
+   Video Styling
+========================= */
+video {
+    display: block;
+    max-width: 100%;
+    margin: 20px auto;
+    border-radius: 10px;
+}

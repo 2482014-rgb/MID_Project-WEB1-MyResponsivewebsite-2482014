@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Registrasi</title>
+    <link rel="icon" href="spiderman.ico" type="image/x-icon">
+    <!-- Gunakan CSS yang sama seperti halaman lain -->
+    <link rel="stylesheet" href="registration.css">
+</head>
+
+<body>
+    <!-- Header & Navigasi -->
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="myholiday.html">My Holiday</a>
+            <a href="registration.html">registration</a>
+        </nav>
+        <h1>Formulir Registrasi</h1>
+    </header>
+
+    <!-- Bagian Formulir -->
+    <section>
+        <h2>Silakan Isi Formulir Berikut</h2>
+        <form action="#" method="post">
+            <ul>
+                <li>
+                    <label for="fullname">Nama Lengkap:</label><br>
+                    <input type="text" id="fullname" name="fullname" placeholder="Masukkan Nama Lengkap" required>
+                </li>
+
+                <li>
+                    <label for="birthdate">Tanggal Lahir:</label><br>
+                    <input type="date" id="birthdate" name="birthdate" required>
+                </li>
+
+                <li>
+                    <label for="phone">Nomor Telepon:</label><br>
+                    <input type="tel" id="phone" name="phone" placeholder="0812-xxxx-xxxx" required>
+                </li>
+
+                <li>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" placeholder="contoh@email.com" required>
+                </li>
+
+                <li>
+                    <label for="address">Alamat:</label><br>
+                    <textarea id="address" name="address" rows="3" placeholder="Masukkan Alamat Lengkap" required></textarea>
+                </li>
+
+                <li>
+                    <label for="town">Kota:</label><br>
+                    <input type="text" id="town" name="town" placeholder="Masukkan Kota" required>
+                </li>
+
+                <li>
+                    <label for="zipcode">Kode Pos:</label><br>
+                    <input type="text" id="zipcode" name="zipcode" placeholder="Masukkan Kode Pos" required>
+                </li>
+
+                <li>
+                    <button type="submit">Kirim</button>
+                    <button type="reset">Reset</button>
+                </li>
+            </ul>
+        </form>
+    </section>
+
+</body>
+
+</html>
