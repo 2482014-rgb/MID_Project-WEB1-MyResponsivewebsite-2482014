@@ -13,6 +13,9 @@ header {
     text-align: center;
     padding: 20px;
 }
+header h1 {
+    margin: 0;
+}
 
 nav {
     background-color: #333;
@@ -66,3 +69,11 @@ h1 {
     transform: scale(1.05);
 }
 
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
